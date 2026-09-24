@@ -1,4 +1,19 @@
 [![DOI](https://zenodo.org)](https://doi.org)
+# project_sofyen
+
+[![DOI](https://zenodo.org)](https://doi.org)
+
+## 🇬🇧 The Sofyen Theorem: A Formal Mathematical Approach to Zeno’s Paradoxes
+This repository introduces the **Sofyen Theorem**, a novel formal and logical framework designed to address and resolve the classical paradoxes of Zeno of Elea (including the Dichotomy and Achilles and the Tortoise). By redefining the mathematical treatment of infinite divisibility and space-time continuity through a rigorous analytical structure, this work provides an alternative perspective to standard geometric series solutions. It offers researchers in philosophy, mathematics, and logic a new foundational model for understanding continuous motion and limits.
+
+---
+
+## 🇫🇷 Le Théorème de Sofyen : Une approche mathématique formelle des paradoxes de Zénon
+Ce dépôt présente le **Théorème de Sofyen**, un nouveau cadre formel et logique conçu pour aborder et résoudre les paradoxes classiques de Zénon d'Elée (notamment la Dichotomie et Achille et la Tortue). En redéfinissant le traitement mathématique de la divisibilité infinie et de la continuité espace-temps à travers une structure analytique rigoureuse, ce travail propose une perspective alternative aux solutions classiques par séries géométriques. Il offre aux chercheurs en philosophie, mathématiques et logique un nouveau modèle fondateur pour penser le mouvement continu et la notion de limite.
+
+## Citation / Academic Reference
+Barkadi, S. (2026). project_sofyen: Sofyen Theorem Academic Version 1.0.1 (Version v1.0.1). Zenodo. https://doi.org
+
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
