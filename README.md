@@ -71,4 +71,32 @@ The computational certificates preserve strict scientific reproducibility with *
 * **SageMath Local Engine (Appendix B):** Generated the exact table of rational $R_a$ invariants from first principles and validated the determinant coefficient identity against raw multinomial extractions across **2,237 primes** ($101 \le p < 20,000$).
 * **SageMath Global Engine (Appendix C):** Confirmed perfect alignment for $d=7$ and verified structural/algebraic thresholds when generalizing to higher genus cases like $d=11$.
 
+---
+
+## 5. Scientific Novelty & State of the Art
+
+While classic arithmetic geometry extensively studies the Cartier–Manin invariants and $p$-rank profiles of hyperelliptic curves (following Yui, Manin, and Katz), universal properties for specific one-parameter families are rarely established across all primes due to computational bounds. 
+
+This project introduces two distinct contributions to the state of the art:
+1. **The Exact Exceptional Set:** It provides the first exhaustive proof that the structural collapse of $\det M_p(\sigma)$ for the family $y^2 = x^7 + \sigma x + 1$ is restricted solely to $\mathcal{E} = \{3, 7, 11, 23\}$.
+2. **Algorithmic Decoupling:** Traditional checks require explicit polynomial expansions, which fail due to memory exhaustion around $p \sim 400$. By leveraging an $O(1)$ Reachability Sieve combined with $p$-adic Gamma reductions, this framework decouples invariant verification from polynomial degree growth, solving the non-vanishing problem for all large primes simultaneously.
+
+---
+
+## 6. Performance & Experimental Benchmarks
+
+To validate the theoretical limits of **Sofyen's Theorem**, the algorithm bypasses traditional symbolic expansion in favor of the specialized $O(1)$ structural check (Principle 1). 
+
+### A. Regime I Advanced Scan
+* **Search Bound:** Tested every single prime $p < 10^8$.
+* **Total Primes Evaluated:** **5,761,454 primes**.
+* **Execution Time:** **20.9 seconds** (via Python/SymPy engine).
+* **Result:** Confirmed that structural matrix collapse occurs *exclusively* for the exceptional set $\mathcal{E} = \{3, 7, 11, 23\}$.
+
+### B. Multi-Engine Cross-Verification
+The computational certificates preserve strict scientific reproducibility with **zero disagreements** across three decoupled software setups:
+* **Pure Python Engine (Appendix A):** Successfully verified non-vanishing conditions across the interval $11 \le p < 4 \times 10^5$ with zero uncertified fallbacks.
+* **SageMath Local Engine (Appendix B):** Generated the exact table of rational $R_a$ invariants from first principles and validated the determinant coefficient identity against raw multinomial extractions across **2,237 primes** ($101 \le p < 20,000$).
+* **SageMath Global Engine (Appendix C):** Confirmed perfect alignment for $d=7$ and verified structural/algebraic thresholds when generalizing to higher genus cases like $d=11$.
+
 \end{document}
