@@ -1,0 +1,216 @@
+### `LICENSE — Sofyen Theorem Academic License v1.0`
+
+# SOFYEN THEOREM ACADEMIC LICENSE
+
+## Version 1.0 — 2026
+
+Copyright © 2026 Mohamed Sofyen
+
+All rights reserved, subject to the permissions expressly granted below.
+
+This license applies to the original written work, proofs, mathematical
+formulations, computational implementations, certificates, source code,
+documentation, figures, tables, and other materials published by Mohamed
+Sofyen in connection with:
+
+**“Sofyen's Theorem on Universal Non-Ordinarity”**
+
+concerning the genus-3 hyperelliptic family
+
+$$
+C_\sigma:\quad y^2=x^7+\sigma x+1.
+$$
+
+---
+
+## 1. Authorship and Attribution
+
+The original authorship of the work identified above belongs to:
+
+**Mohamed Sofyen**
+
+Any reproduction, distribution, implementation, extension, translation,
+adaptation, or substantial use of the published work must preserve a clear
+and visible attribution to Mohamed Sofyen.
+
+The following attribution is recommended:
+
+> Mohamed Sofyen, “Sofyen's Theorem on Universal Non-Ordinarity,” 2026.
+
+---
+
+## 2. Academic Citation
+
+Any academic publication, preprint, thesis, dissertation, presentation,
+lecture, software repository, computational project, or other scholarly
+work that relies materially on the published theorem, its proof,
+derivation, computational certificate, or associated implementation must
+include an appropriate citation to the original publication or repository.
+
+Where a DOI is available, the DOI should be cited in preference to a
+repository URL.
+
+---
+
+## 3. Use and Reproduction
+
+The materials covered by this license may be:
+
+* studied and used for academic research;
+* reproduced for non-commercial educational purposes;
+* implemented independently in software;
+* cited in scientific publications;
+* incorporated into scholarly discussions;
+* extended or generalized for research purposes.
+
+Such use is permitted provided that the attribution and citation
+requirements of this license are maintained.
+
+---
+
+## 4. Derivative and Extended Works
+
+A work that modifies, extends, generalizes, translates, or computationally
+reimplements the original material must clearly distinguish the new
+contribution from the original work.
+
+In particular, a derivative work must not present Mohamed Sofyen's original
+proof, formulation, computational certificate, or other original material
+as having been independently authored by another person.
+
+A derivative work should state, where appropriate:
+
+> This work builds upon Sofyen's Theorem and/or its original proof and
+> computational development by Mohamed Sofyen.
+
+---
+
+## 5. Independent Mathematical Discovery
+
+Nothing in this license restricts a person from independently discovering
+a mathematical result without copying, reproducing, or materially relying
+upon the copyrighted expression of the original work.
+
+This license governs attribution and use of the published expression,
+proofs, code, documentation, and other copyrightable materials; it does
+not claim exclusive ownership of abstract mathematical facts or ideas.
+
+---
+
+## 6. Commercial Use
+
+Commercial use of the accompanying source code, documentation, or other
+copyrightable materials is permitted only if the attribution and citation
+requirements of this license are preserved.
+
+Commercial redistribution of substantial portions of the original
+materials should retain this license in its entirety.
+
+---
+
+## 7. No False Attribution
+
+No person or organization may knowingly:
+
+1. remove the original authorship attribution;
+2. falsely claim authorship of Mohamed Sofyen's original proof or
+   published formulation;
+3. represent a modified version as the unchanged original work;
+4. imply that Mohamed Sofyen endorses a derivative result without
+   explicit authorization.
+
+---
+
+## 8. Research Integrity
+
+Users of this work are encouraged to distinguish explicitly between:
+
+* results proved in the original work;
+* independently verified results;
+* computationally reproduced results;
+* conjectures or extensions;
+* results obtained independently by subsequent researchers.
+
+The use of the name “Sofyen's Theorem” refers specifically to the original
+theorem and formulation published by Mohamed Sofyen.
+
+---
+
+## 9. Software
+
+Where source code is distributed together with the mathematical work,
+the code remains subject to this license unless a separate software
+license is explicitly stated for that code.
+
+A repository may therefore contain a separate license for software while
+retaining this license for the mathematical paper, proof, documentation,
+and associated scholarly materials.
+
+---
+
+## 10. Disclaimer
+
+THE MATERIALS ARE PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED.
+
+THE AUTHOR SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY
+ARISING FROM THE USE, REPRODUCTION, IMPLEMENTATION, OR INTERPRETATION OF
+THE MATERIALS.
+
+---
+
+## 11. Recommended Citation
+
+Until a formal bibliographic publication and DOI are available, the
+following citation is recommended:
+
+**Sofyen, Mohamed (2026). “Sofyen's Theorem on Universal
+Non-Ordinarity for the Genus-3 Family \(y^2=x^7+\sigma x+1\).”**
+
+When a DOI becomes available, users should cite the DOI version.
+
+---
+
+## 12. Copyright Notice
+
+Copyright © 2026 Mohamed Sofyen.
+
+All rights reserved, except for the permissions expressly granted by
+this license.
+
+The name **Mohamed Sofyen** and the designation **“Sofyen's Theorem”**
+shall remain associated with the original work and its authorship.
+
+### Pour le dépôt GitHub
+
+Je mettrais également ceci dans le `README.md` :
+
+## Attribution and License
+
+**Sofyen's Theorem on Universal Non-Ordinarity**
+© 2026 **Mohamed Sofyen**
+
+This repository contains the mathematical development, proof,
+computational verification, and associated materials concerning
+Sofyen's Theorem for the genus-3 family
+
+$$
+C_\sigma:\quad y^2=x^7+\sigma x+1.
+$$
+
+The original theorem and its published mathematical development are
+attributed to **Mohamed Sofyen**.
+
+Academic or scientific use of this work should cite the original
+publication:
+
+> Mohamed Sofyen (2026), *Sofyen's Theorem on Universal Non-Ordinarity
+> for the Genus-3 Family \(y^2=x^7+\sigma x+1\).*
+
+See [`LICENSE`](LICENSE) for the complete terms of use.
+
+**Important:** independent mathematical discoveries remain independent;
+this license concerns the original published expression, proof,
+documentation, code, and associated scholarly materials.
+
+Je ferais ensuite **une distinction très nette dans le dépôt entre `LICENSE` du théorème/papier et une licence de logiciel (`MIT`, `Apache-2.0`, etc.) pour le code**. C'est juridiquement et scientifiquement beaucoup plus propre qu'une seule licence essayant de couvrir simultanément un théorème et du code.
