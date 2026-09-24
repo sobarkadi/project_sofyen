@@ -88,7 +88,7 @@ This project introduces two distinct contributions to the state of the art:
 To validate the theoretical limits of **Sofyen's Theorem**, the algorithm bypasses traditional symbolic expansion in favor of the specialized $O(1)$ structural check (Principle 1). 
 
 ### A. Regime I Advanced Scan
-* **Search Bound:** Tested every single prime $p < 10^8$.
+* **Search Bound:** Tested every single prime $p < 10^8$..
 * **Total Primes Evaluated:** **5,761,454 primes**.
 * **Execution Time:** **20.9 seconds** (via Python/SymPy engine).
 * **Result:** Confirmed that structural matrix collapse occurs *exclusively* for the exceptional set $\mathcal{E} = \{3, 7, 11, 23\}$.
